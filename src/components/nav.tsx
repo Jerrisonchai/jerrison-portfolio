@@ -38,10 +38,20 @@ export function Nav() {
       aria-label="Main navigation"
     >
       <div className="max-w-5xl mx-auto px-6 h-14 md:h-16 flex items-center justify-between">
-        {/* Logo */}
-        <a href="#" className="font-mono font-bold text-lg text-white tracking-tight" aria-label="Jerrison Chai Home">
-          JC<span className="text-accent">.</span>
-        </a>
+        {/* Logo + Avatar */}
+        <div className="flex items-center gap-3">
+          <a href="#" className="font-mono font-bold text-lg text-white tracking-tight" aria-label="Jerrison Chai Home">
+            JC<span className="text-accent">.</span>
+          </a>
+          <img
+            src="/images/profile-photo.png"
+            alt="Jerrison Chai"
+            className="w-8 h-8 rounded-full border border-[#262626] object-cover"
+            width={32}
+            height={32}
+            loading="eager"
+          />
+        </div>
 
         {/* Desktop links */}
         <ul className="hidden md:flex items-center gap-8">

@@ -18,8 +18,25 @@ export default function AboutPage() {
         {/* Header */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
           <p className="section-label mb-2">About</p>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">The Story</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-2 tracking-tight">The Story</h1>
           <div className="section-divider mb-10" />
+        </motion.div>
+
+        {/* Profile Photo */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="mb-12"
+        >
+          <div className="w-full max-w-md mx-auto aspect-[4/5] rounded-2xl overflow-hidden border border-[#262626] bg-[#121212]">
+            <img
+              src="/images/profile-photo.png"
+              alt="Jerrison Chai — VBA Automation Architect & Full-Stack Developer"
+              className="w-full h-full object-cover"
+              loading="eager"
+            />
+          </div>
         </motion.div>
 
         {/* Professional Story */}
