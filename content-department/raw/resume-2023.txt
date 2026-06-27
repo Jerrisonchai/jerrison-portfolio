@@ -1,0 +1,51 @@
+--- PAGE 1 ---
+JERRISON CHAI CHANG YAN
+870902-52-6095
+No. 12-11, Pangsapuri Simfoni 2, Jalan Anggerik Villa 2/3, Taman Anggerik Perdana,
+43500 Semenyih, Selangor Darul Ehsan
++6016-6455408 / jerrisonchai@gmail.com
+January 2023 to Present: Software lead (IT Department), DNA Laboratories Sdn Bhd – IT device migration, IT request, Excel
+V BA programming, Lab eOrder SIT, SharePoint administrative works, new LIS project and data housekeeping.
+• Reduced Customer Care Department operator's workload by 50% in reporting & emailing by creating 3 Excel VBA Workingfile
+consisting of 3000 lines of VBA-code, integrating events/tasks between LIS, local shared server
+• Reduced Lab Service's workload by 50% in verifying reports by creating Excel VBA automation, consisting of 300 lines of code,
+applying version control, providing user training, and performing debugs and code improvements
+• Reduced 20% internal clerical error in Sample Registration and reduced TAT of outsourcing test by implementing inter-company
+eOrder system, collaborating with Singapore IT executives, using system automation, performing data-mapping, and SIT
+March 2020 to Present: Marketing Assistant Manager (Sales and Marketing Department), DNA Laboratories Sdn Bhd –
+Managing social media accounts and creating content, including festive greetings, awareness posts, and educational content. I handled
+gift orders, design, and delivery, prepared quality reports, managed the company website, and organized virtual events.
+• Created 5 dynamic product/panel search Webpage for client and internal usage within budget, by using Visual Studio Code, HTML,
+CSS, and Javascript with 11,000 lines of codes, systemized with an update process using Excel automation
+• Generated RM26,000 in revenue from a targeted Product Digital Marketing Campaign within the allocated budget in a 6-month
+period, by collaborating with an external expert, translating assets into Chinese, and measuring converted clicks/views
+• Organized 150,000 Incoming COVID Samples by developing a system and managing incoming COVID samples' quantity,
+regulating the workload of lab and demand from clients, setting cut-offs, and providing live-forecast Excel lists for Sales
+January 2020 to December 2022: LIS Project Manager (Sales and Marketing Department), DNA Laboratories Sdn Bhd –
+Routine tasks including communicating with the LIS developer, gathering internal requirements, and overseeing feature quality. I also
+m anaged data maintenance and integrations and evaluated developer performance, addressed internal LIS system issues.
+• Completion of 20 report customization, 7570 total lines of code, for new LIS system by collaborating with Software developer,
+debug codes using Visual Studio Codes in HTML, CSS, template filled with multiple conditions, and advanced data-mapping
+January 2020 to March 2020: Clinical Science Liaison (Sales and Marketing Department), DNA Laboratories Sdn Bhd –
+Routine tasks involved analyzing data and presenting statistics to internal Sales Representatives. I offer technical information to Sales
+R epresentatives and collaborate with the Technical and Lab teams to gather additional information.
+• Conducted efficient daily morning Online meetings by developing SOPs, setting up the system, keeping minutes and records for
+ISO purposes, and making sure meeting messages were clearly conveyed during COVID lockdown
+January 2019 to December 2019: Lab Assistant Manager (General Screening Lab), DNA Laboratories Sdn Bhd – Managed
+tasks like monitoring and ordering stock, and ensuring instrument maintenance schedules were met. I prepared monthly quality reports,
+r eviewed test worksheets, and maintained lab records. I'm also involved in training new lab personnel for these tests.
+• Reduced task load and clerical mistakes by creating VBA Excel for Lab routine maintenance and system integration
+• Trained staff for Screening Lab operations (Staff promoted from Junior to Senior Exec)
+• Reduced Manager's KPI report procedure from 2 days to 3 hours by developing Excel templates with formulas
+January 2016 to December 2018: Lab Executive (Next Generation Sequencing Lab), DNA Laboratories Sdn Bhd – Handled
+routine tasks like monitoring stock and maintaining instruments. For NIPT testing, I worked on two NGS platforms, handling DNA
+extraction, library prep, sequencing, and data management. I correspond with vendors for abnormal case confirmation, verify results,
+and publish reports in LIS system.
+• Migrated NIPT Lab Testing from one platform to another by performing validation and inter-lab parallel test
+• Upkeep laboratory water system for Lab, outdoor filter by maintaining water system, providing SOPs and training to Lab staff.
+Previous Working Experiences:
+• July 2015 to December 2015: Junior Lab Executive (General Screening & Molecular Lab), DNA Laboratories Sdn Bhd
+• January 2015 to June 2015: Customer Service & Internal Process Executive, DNA Laboratories Sdn Bhd
+• February 2014 to December 2014: Editorial Assistant (Publication Department), Persatuan Soka Gakkai Malaysia (NGO)
+Educational Background: BSc (Honours) Major in Microbiology, Universiti Putra Malaysia, 2010
+
