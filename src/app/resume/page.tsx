@@ -96,6 +96,12 @@ export default function ResumePage() {
                 {/* Contact Header */}
                 {sections.contact && (
                   <div className="text-center mb-8 pb-6 border-b border-[#262626]">
+                    <img
+                      src="/images/profile-photo.png"
+                      alt="Jerrison Chai"
+                      className="w-20 h-20 rounded-full mx-auto mb-3 object-cover border-2 border-[#262626]"
+                      style={{ printColorAdjust: 'exact', WebkitPrintColorAdjust: 'exact' }}
+                    />
                     <h2 className="text-2xl font-bold text-white mb-1">Jerrison Chai</h2>
                     <p className="text-zinc-400 text-sm">
                       Kuala Lumpur, Malaysia · jerrisonchai@gmail.com · github.com/Jerrisonchai
@@ -167,7 +173,7 @@ export default function ResumePage() {
                 {sections.education && (
                   <ResumeSection title="Education & Languages" icon="🎓">
                     <div className="flex flex-wrap gap-x-8 gap-y-2 text-xs text-zinc-400">
-                      <span>🇲🇾 Diploma — Kuala Lumpur</span>
+                      <span>🎓 Honoured Degree in Microbiology from UPM (graduate on 2010)</span>
                       <span>🇬🇧 English (Professional working)</span>
                       <span>🇨🇳 Chinese (Native / Bilingual)</span>
                       <span>🇲🇾 Bahasa Malaysia (Conversational)</span>
@@ -210,6 +216,10 @@ export default function ResumePage() {
           #resume-print .border-b { border-color: #ddd !important; }
           nav, aside, footer, button, .btn-primary, .btn-secondary { display: none !important; }
           @page { margin: 0.3in; size: A4; }
+          #resume-print img {
+            print-color-adjust: exact;
+            -webkit-print-color-adjust: exact;
+          }
         }
       `}</style>
 
@@ -342,5 +352,5 @@ KEY ACHIEVEMENTS
 48 releases    — Formal version control with Quality checklists since 2024
 
 EDUCATION & LANGUAGES
-Diploma — Kuala Lumpur
+Honoured Degree in Microbiology from UPM (graduate on 2010)
 English (Professional working) | Chinese (Native/Bilingual) | Bahasa Malaysia (Conversational)`;
