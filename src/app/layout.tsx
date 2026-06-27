@@ -46,6 +46,8 @@ export const metadata: Metadata = {
   },
 };
 
+import { ChatBot } from '@/components/chat-bot';
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="scroll-smooth">
@@ -83,7 +85,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
       </head>
-      <body className="bg-[#0A0A0A] text-[#F5F5F5] antialiased font-sans pb-20 md:pb-0">{children}</body>
+      <body className="bg-[#0A0A0A] text-[#F5F5F5] antialiased font-sans pb-20 md:pb-0">
+        {children}
+        <ChatBot />
+      </body>
     </html>
   );
 }
