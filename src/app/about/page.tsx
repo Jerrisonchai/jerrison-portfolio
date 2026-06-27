@@ -56,7 +56,7 @@ export default function AboutPage() {
               The peak of this journey is the <span className="text-accent font-medium">JARVIS Dashboard</span> — a VBS-PS1-BAT-HTML system that reduced daily INV operations from 20 minutes to 3. It's not just code; it's the culmination of 12 years of understanding how people work, where processes break, and how to bridge the gap with technology.
             </p>
             <p>
-              In 2024, I joined <span className="text-white">Shuei Trading Sdn Bhd</span> as a VBA Business Analyst — applying everything I learned at DNA Labs to a new industry. Same toolkit, new challenges: supply chain automation, trading operations, and cross-border e-commerce workflows.
+              In 2024, I joined <span className="text-white">Shuei Trading Sdn Bhd</span> as a VBA Business Analyst — bringing everything I built at DNA Labs into a new industry. Here I built the <span className="text-accent font-medium">JARVIS Dashboard</span> (VBS-PS1-BAT-HTML), a Supplier Comparison System, and e-commerce reporting for 5 platforms — all while maintaining 727+ templates and completing 48 version releases across 3,348 VBA hours.
             </p>
           </div>
         </motion.section>

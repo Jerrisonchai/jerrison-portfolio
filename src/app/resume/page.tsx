@@ -256,25 +256,16 @@ const skillGroups = [
 
 const experience = [
   {
-    role: 'Software Lead & VBA Automation Architect',
-    period: '2023',
-    company: 'DNA LABS SDN BHD — INV Team',
-    bullets: [
-      'Built JARVIS Dashboard (VBS-PS1-BAT-HTML) — one-click automation reducing daily operations from 20 minutes to 3.',
-      'Automated email drafting pipeline: OneDrive → VBS → Outlook. Implemented PO Approval WatchFolder.',
-      'Managed 1 subordinate (Gino). Led INV team with 727+ active templates, 695K lines of code.',
-      'Cross-department service: INV, LL, COSME-DE, Yumi, GMP.',
-    ],
-  },
-  {
     role: 'VBA Business Analyst',
     period: '2024 – Present',
     company: 'Shuei Trading Sdn Bhd',
     bullets: [
-      'Served 3 departments simultaneously. 3,348 VBA hours across 2 years (80%+ time allocation).',
+      'Built JARVIS Dashboard (VBS-PS1-BAT-HTML) — one-click automation reducing daily operations from 20 minutes to 3.',
+      'Automated email drafting pipeline: OneDrive → VBS → Outlook. Implemented PO Approval WatchFolder.',
+      'Led INV team with 727+ active templates, 695K lines of code. Cross-department service: 5 teams.',
       'Built Supplier Comparison System processing 100+ non-standardized supplier Excel files.',
       'Developed e-commerce monthly reports: Lazada, Shopee, Zalora, Qoo10, eBay. 48 version releases.',
-      'Expanded into BAT, VBS, PowerShell, web scraping, task monitoring, and HTML reporting.',
+      'Averaged 80%+ VBA time allocation: 3,348 hours across 2 years.',
     ],
   },
   {
@@ -328,17 +319,13 @@ Business: SOPs, 21CFR compliance, requirements gathering, cross-department colla
 
 PROFESSIONAL EXPERIENCE
 
-Software Lead & VBA Automation Architect | DNA Labs — INV Team | 2023
+VBA Business Analyst | Shuei Trading | 2024–Present
 • Built JARVIS Dashboard (VBS-PS1-BAT-HTML): one-click automation, 20min→3min daily ops
 • Automated email drafting pipeline: OneDrive → VBS → Outlook. PO Approval WatchFolder
-• Managed 1 subordinate (Gino). 727+ active templates, 695K lines of production code
-• Cross-department service: INV, LL, COSME-DE, Yumi, GMP
-
-VBA Business Analyst | Shuei Trading | 2024–Present
-• Served 3 departments simultaneously. 3,348 VBA hours (80%+ time allocation)
+• Led INV team: 727+ active templates, 695K lines of production code. 5-team cross-dept service
 • Built Supplier Comparison System processing 100+ non-standardized supplier files
 • E-commerce monthly reports: Lazada, Shopee, Zalora, Qoo10, eBay. 48 version releases
-• Expanded into BAT, VBS, PowerShell, web scraping, task monitoring, HTML reporting
+• Averaged 80%+ VBA time allocation: 3,348 hours across 2 years
 
 LIS Project Manager & Lab Assistant Manager | DNA Labs | 2016–2023
 • First VBA: reduced Manager KPI report from 2 days to 3 hours. Cut workload 50%

@@ -225,18 +225,11 @@ const skills = [
 
 const experience = [
   {
-    era: '2023',
-    year: '2023',
-    role: 'Software Lead & VBA Automation Architect',
-    desc: 'Built JARVIS Dashboard (VBS-PS1-BAT-HTML): one-click automation reducing daily operations from 20 minutes to 3. Automated email drafting (OneDrive → VBS → Outlook) and PO Approval WatchFolder. Lead INV team, manage one subordinate (Gino). 727 active templates, 695K lines of code.',
-    highlights: ['JARVIS Dashboard', 'Team Lead', '20min→3min', 'Email Automation'],
-  },
-  {
     era: '2024–Present',
     year: '2024',
     role: 'VBA Business Analyst — Shuei Trading',
-    desc: 'Served three departments simultaneously. Built Supplier Comparison system handling 100 non-standardized supplier files. Developed Lazada/Shopee/Zalora/Qoo10/eBay monthly report templates. 48 version releases. Averaged 80%+ VBA time allocation (3,348 hours across 2 years).',
-    highlights: ['48 Releases', '3,348 hrs', 'Supplier System', 'E-com Templates'],
+    desc: 'Built JARVIS Dashboard (VBS-PS1-BAT-HTML): one-click automation reducing daily operations from 20 minutes to 3. Automated email drafting (OneDrive → VBS → Outlook) and PO Approval WatchFolder. Led INV team with 727+ active templates, 695K lines of code. Built Supplier Comparison system handling 100+ non-standardized supplier files. Developed Lazada/Shopee/Zalora/Qoo10/eBay monthly report templates. 48 version releases. Averaged 80%+ VBA time allocation (3,348 hours across 2 years).',
+    highlights: ['JARVIS Dashboard', '48 Releases', '20min→3min', '3,348 hrs'],
   },
   {
     era: '2020–2023',
