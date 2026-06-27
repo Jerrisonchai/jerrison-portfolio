@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { Nav } from './nav';
 import { CountUp } from './count-up';
+import { ContactForm } from './contact-form';
 
 /* ── Animation Presets ── */
 const fadeUp = {
@@ -167,25 +168,15 @@ export function Portfolio() {
         </section>
 
         {/* ─── CONTACT ─── */}
-        <section id="contact" className="py-20 md:py-28 px-6 max-w-5xl mx-auto text-center">
-          <motion.div {...fadeUp}>
-            <p className="section-label mb-2">Get In Touch</p>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 tracking-tight">Contact</h2>
+        <section id="contact" className="py-20 md:py-28 px-6 max-w-5xl mx-auto">
+          <motion.div {...fadeUp} className="max-w-lg mx-auto">
+            <p className="section-label mb-2 text-center">Get In Touch</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 tracking-tight text-center">Contact</h2>
             <div className="section-divider mb-8 mx-auto" />
-            <p className="text-zinc-400 text-sm mb-8 max-w-md mx-auto">
-              Open to opportunities in VBA automation, business analysis, and process improvement.
+            <p className="text-zinc-400 text-sm mb-8 text-center">
+              Open to VBA automation, business analysis, and web development opportunities. Let's talk.
             </p>
-            <div className="flex justify-center gap-3 flex-wrap">
-              <a href="mailto:jerrisonchai@gmail.com" className="btn-secondary text-sm">
-                jerrisonchai@gmail.com
-              </a>
-              <a href="https://github.com/Jerrisonchai" target="_blank" rel="noopener noreferrer" className="btn-secondary text-sm">
-                GitHub ↗
-              </a>
-              <a href="/jerrison-resume.pdf" className="btn-primary text-sm">
-                📄 Resume PDF
-              </a>
-            </div>
+            <ContactForm />
           </motion.div>
         </section>
       </main>

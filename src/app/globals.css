@@ -151,6 +151,31 @@ body {
 }
 .btn-secondary:hover { border-color: var(--color-border-light); background: var(--color-bg-hover); }
 
+/* ── Form Inputs ── */
+.input-field {
+  width: 100%;
+  padding: 10px 12px;
+  background: #121212;
+  border: 1px solid #262626;
+  border-radius: 8px;
+  color: #F5F5F5;
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color 0.15s ease;
+  outline: none;
+  min-height: 44px;
+}
+.input-field::placeholder { color: #52525B; }
+.input-field:focus { border-color: #3B82F6; }
+.input-field:disabled { opacity: 0.5; cursor: not-allowed; }
+select.input-field {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M3 5l3 3 3-3' stroke='%2371717A' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 36px;
+}
+
 /* ── Table ── */
 .table-scroll {
   overflow-x: auto;
