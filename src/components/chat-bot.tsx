@@ -11,8 +11,8 @@ interface Message {
 
 function getGreeting(): Message[] {
   return [
-    { role: 'bot', text: "Hey! 👋 I'm Jerrison's portfolio assistant. Ask me anything about his career, skills, projects, or how to get in touch." },
-    { role: 'bot', text: 'Try asking:\n• Who is Jerrison Chai?\n• What is the JARVIS Dashboard?\n• How can I contact you?\n• What technologies do you use?' },
+    { role: 'bot', text: "Hey! 👋 I'm Jerrison's portfolio assistant — part FAQ machine, part hype person. Ask me anything about his career, skills, projects, or how to hire him!" },
+    { role: 'bot', text: 'Try asking:\n• Tell me about yourself\n• What is the JARVIS Dashboard?\n• How do you use AI?\n• Are you open to freelance?' },
   ];
 }
 
@@ -42,19 +42,19 @@ export function ChatBot() {
 
   const simulateTyping = async (fullText: string, msgIndex: number) => {
     setIsBotTyping(true);
-    // Show typing indicator
     setMessages(prev => {
       const updated = [...prev];
       updated[msgIndex] = { ...updated[msgIndex], isTyping: true, text: '' };
       return updated;
     });
 
-    // Type out the message character by character
     const chars = fullText.split('');
     let currentText = '';
-    
+
     for (let i = 0; i < chars.length; i++) {
-      await new Promise(r => setTimeout(r, 15 + Math.random() * 25));
+      // Speed varies: faster for long messages, slower for short ones
+      const delay = chars.length > 200 ? 8 + Math.random() * 12 : 15 + Math.random() * 25;
+      await new Promise(r => setTimeout(r, delay));
       currentText += chars[i];
       setMessages(prev => {
         const updated = [...prev];
@@ -63,7 +63,6 @@ export function ChatBot() {
       });
     }
 
-    // Mark as fully typed
     setMessages(prev => {
       const updated = [...prev];
       updated[msgIndex] = { role: 'bot', text: fullText, isTyping: false };
@@ -72,27 +71,23 @@ export function ChatBot() {
     setIsBotTyping(false);
   };
 
-  const handleSend = useCallback(async () => {
-    const trimmed = input.trim();
-    if (!trimmed || isBotTyping) return;
+  const handleSend = useCallback(async (text?: string) => {
+    const messageText = (text || input).trim();
+    if (!messageText || isBotTyping) return;
 
-    // Add user message
-    const userMsg: Message = { role: 'user', text: trimmed };
+    const userMsg: Message = { role: 'user', text: messageText };
     setMessages(prev => [...prev, userMsg]);
     setInput('');
 
-    // Find best FAQ match
-    const match = findBestMatch(trimmed);
+    const match = findBestMatch(messageText);
 
     const botResponse = match
       ? match.a
-      : "I couldn't find a specific answer for that. Try asking about my career, VBA automation, JARVIS Dashboard, skills, projects, or how to contact me. Or email me directly: jerrisonchai@gmail.com";
+      : `Hmm, I don't have a specific answer for that yet — but I'm learning! 🧠\n\nTry asking about:\n• Jerrison's career & experience\n• VBA automation & JARVIS Dashboard\n• His tech stack & AI tools\n• Side projects & portfolio\n• Freelance & hiring\n\nOr email him directly: jerrisonchai@gmail.com\n\n(And don't worry — your question has been logged. Jerrison might add it to the FAQ!)`;
 
-    // Add bot placeholder
     const botIdx = messages.length + 1;
     setMessages(prev => [...prev, { role: 'bot', text: '', isTyping: false }]);
 
-    // Small delay before typing starts
     await new Promise(r => setTimeout(r, 300 + Math.random() * 400));
     await simulateTyping(botResponse, botIdx);
   }, [input, isBotTyping, messages.length]);
@@ -145,21 +140,19 @@ export function ChatBot() {
               </div>
               <div>
                 <h3 className="text-white text-sm font-semibold leading-tight">Portfolio Assistant</h3>
-                <p className="text-[10px] text-zinc-500 font-mono">50 FAQs · Ask me anything</p>
+                <p className="text-[10px] text-zinc-500 font-mono">Powered by 37 trained FAQs</p>
               </div>
             </div>
-            <div className="flex items-center gap-1">
-              <button
-                onClick={resetChat}
-                className="text-zinc-600 hover:text-zinc-400 p-1.5 rounded-md hover:bg-[#1A1A1A] transition-colors"
-                title="Reset chat"
-              >
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <polyline points="1 4 1 10 7 10" />
-                  <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
-                </svg>
-              </button>
-            </div>
+            <button
+              onClick={resetChat}
+              className="text-zinc-600 hover:text-zinc-400 p-1.5 rounded-md hover:bg-[#1A1A1A] transition-colors"
+              title="Reset chat"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <polyline points="1 4 1 10 7 10" />
+                <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
+              </svg>
+            </button>
           </div>
 
           {/* Messages */}
@@ -185,20 +178,13 @@ export function ChatBot() {
               </div>
             ))}
 
-            {/* Suggestions after greeting */}
             {messages.length <= 2 && !isBotTyping && (
               <div className="flex flex-wrap gap-1.5 pt-1">
                 {greetingSuggestions.map((s, i) => (
                   <button
                     key={i}
-                    onClick={() => {
-                      setInput(s);
-                      // Auto-send after setting input
-                      setTimeout(() => {
-                        inputRef.current?.focus();
-                      }, 50);
-                    }}
-                    className="text-[11px] px-2.5 py-1.5 rounded-full border border-[#262626] text-zinc-400 hover:text-white hover:border-accent hover:bg-accent/10 transition-colors text-left"
+                    onClick={() => handleSend(s)}
+                    className="text-[11px] px-2.5 py-1.5 rounded-full border border-[#262626] text-zinc-400 hover:text-white hover:text-accent hover:border-accent hover:bg-accent/10 transition-colors text-left"
                   >
                     {s}
                   </button>
@@ -222,7 +208,7 @@ export function ChatBot() {
                 className="flex-1 bg-[#121212] border border-[#262626] rounded-lg px-3 py-2 text-sm text-white placeholder:text-zinc-600 outline-none focus:border-accent transition-colors disabled:opacity-50"
               />
               <button
-                onClick={handleSend}
+                onClick={() => handleSend()}
                 disabled={!input.trim() || isBotTyping}
                 className="w-10 h-10 rounded-lg bg-accent hover:bg-[#2563EB] text-white disabled:opacity-30 disabled:cursor-not-allowed flex items-center justify-center shrink-0 transition-colors"
               >
