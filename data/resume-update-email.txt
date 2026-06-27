@@ -1,0 +1,689 @@
+SUBJECT: Update resume
+DATE: Sat, 27 Jun 2026 16:36:08 +0800
+
+[PART: multipart/mixed]
+[PART: multipart/alternative]
+[PART: text/plain]
+PLAIN: Here is my work experience update from 2024-2026
+
+[PART: text/html]
+HTML: <div dir="ltr">Here is my work experience update from 2024-2026</div>
+
+[PART: text/plain]
+PLAIN: 2026 Log Working with Gino
+
+2/2 Download report.xlsm corrupted. Rerun at 9.30am
+
+3/2 Some macro faced issues. Rerun at 9.54am.
+
+5/2 Meeting: INV team meeting 01
+
+9/2 Issue with AverageCost weekly. Edited manually.
+
+10/2 Issue with SOH data. Rerun macro.
+
+16/2 Issue with MKTOverstock12MTH, rerun twice, variance = 0.
+
+24/2 Issue with ItemDetails rerun after INVMKTSales report. PO balance & INVMKTSales is not accurate.
+
+27/2 Meeting: INV team meeting 01, Improved Integrated VBA by Gino. Pending Jerr check code.
+	Consistency on renaming 2nd version of files.
+	Jerr updated vba for SOH List by market v1.10
+4/3 SOH by Item raw data with 2 timestamp, 2nd run was alert by FOON.
+
+5/3 Issue with ItemDetails where Gino updated & clean up macro but skipped 2 lines of code. Done debug 6/3
+	FOON: add table on PO Summary FRIDAY
+
+6/3 Deployed improved DailyInvRpt vba, but hit error 1004, pending resolve (pivot table header not match issue)
+	evening clock out - cannot connect to the CDN App
+
+10/3 HK Server down, resolve by HKIT on 11.10am
+	Plan to set cut off for daily task - 11.15am
+
+
+12/3 INV team meeting 03. Major improvement by Gino using bat files for MasterAutomations (with Backup files feature)
+	Side Project: New assignment from HR - GLO promotion list audit
+
+16/3 Request Gino to provide timestamp of the bat file automations. In Progress.
+
+17/3 Side Project: Submitted Audit for GLO Promo list
+
+18/3 MasterAutomation bat files run smoothly (success deploy)
+	Side task: collect parcel for Office signboard
+
+19/3 Jerr updated vba for PO Summary FRIDAY to v1.21 
+	Side Project: Submitted version1 for GLO PROMO
+
+20/3 Gino replacement on FRIDAY weekly task.
+
+23/3 Gino replacement on MONDAY weekly task.
+	Issue at SOH weekly report (minor mistakes)
+	Issue at Overstock12mth, cannot run vba template.
+
+25/3 Side Task: Capturing ARCC license for audit purpose.
+	Side Project: Double check all GLO PROMO and prepare final list to IT for correction
+
+26/3 Side Project: Submitted GLO PROMO final list to IT for correction
+
+27/3 Gino replacement on FRIDAY weekly task (Jerr sick leave)
+
+1/4 Issue with MasterAutomation bat file - not able to handle 1st Working day (need to run Item Turn Code first)
+	Run manually, and rerun all affected reports.
+
+1/4 Issue with broken cron from NAV IT team where Sales Data Variance is not sent.
+	Jerr delayed Monthly report for Monthly Expiry Report.
+
+2/4 INV team meeting 04. Routine updates.
+
+3/4 - 7/4 = HK long holiday
+
+8/4 Requested Gino to prepare Quarterly reporting template for GMP
+
+9/4 Bat file automation issues, completed Daily task on > 10am
+
+10/9 Issue with INVMKTSales report, where vba reference sheet sequence, debug with referencing sheet name.
+
+14/4 INVMKTSales report (excel template) update: formula to include AVG 5 MTH Sales
+
+15/4 FOON: Discontinue Monthly A&B Insufficient reporting
+
+16/4 Jerr updated Weekly FRIDAY vba to SOH v1.11, PO Summary v1.22 (To fix reported by automations)
+
+16/4 SIT on new version of DailyINVRpt vba (v6.0)
+
+17/4 INV team meeting 05. Debug Backup File bat code, discover main root cause of DateFormat in INVMKTSales Report.
+	Director: requested 202509 SOH list. Sent.
+
+21/4 Issue with SOH raw data pickup previous day data. Requested Gino to rerun with correct filename. (Gino forgot to double check all file name before performing MasterAutomation)
+
+22/4 Issue with POBalance PM pickup AM data. Requested Gino to rerun with correct filename.
+
+23/4 Fiona replied OrderApproval email from yesterday, need to rerun macro to use today's data.
+	
+24/4 Jerr fixed date issue from Download_Reports V1.2, deployed to PROD to let Gino use it.
+
+27/4 PO Balance PM took data from AM. Requested Gino to rerun.
+
+29/4 Jerr completed NEW vba for Weekly SOH Monday, deployed v1.00 and informed Gino. Reporting completed within 20 seconds + 5min checking (instead of 15mins), code prevent human error on the reporting.
+
+30/4 INV team meeting 06. Routine updates. Debug for PObalance, IMSI, SOH report is needed
+
+4/5 Jerr completed debug for PO Balance v1.2, deployed and informed Gino
+
+5/5 Jerr completed debug for IMSI Sales&Inventory vba v2.31, deployed and informed Gino
+
+6/5 Jerr completed debug for DailyInvRpt v6.1, deployed and checked with Gino
+
+7/5 Requested Gino to perform Housekeeping for archiving old files in daily folders
+
+13/5 Fiona requested to exclude mariko and add new JP colleague for LensLabo monthly report.
+
+15/5 Gino's issue with residue-running excel from previous automation. Suggested to use Task Manager to clean excel task. (root cause: running vbs without properly closing excel in the background)
+
+15/5 INV team meeting 07. Provided explanation for weekly JPN Overstock & short expiry reportings.
+
+19/5 Deployed JPN Overstock vba v1.00 into Production.
+
+20/5 Production backup automation issues, Jerr suggest kill all when have issue, Gino fixed backup folder with selective files
+Gino cannot access to all macro in POBalance vba template (similar issue for using vbs in background)
+
+21/5 Jerr provided solution with VBS proper kill code, to solve the on going issue.
+
+28/5 INV team meeting 08. DEMO on JPN Overstock vba template, and DEMO new JARVIS dashboard to Gino.
+
+1/6 SalesDataVariance pickup last week data, asked Gino to rerun. Receive information was having wrong month for pivot (FEB-APR, supposed to be MAR-MAY), manually done by Gino and manually corrected by Gino, rerun IMSI.
+
+
+
+
+
+
+
+
+[PART: text/plain]
+PLAIN: 2026 Work progress review:
+
+From TrackingTime APP:
+JAN - 	Handle Tommy handover list, COSME-DE & LL reportings
+
+FEB - 	Discussion with Gino for INV Team task data tracebility
+
+MAR - 	Optimized existing previous vba by ex colleague (from frequent file corrupts, into smooth-fast macros)
+
+APR -	Apply audits into Daily and Weekly vba templates
+
+MAY -	Transform Integrated VBA (control hub) into VBS-PS1-BAT-HTML JARVIS Dashboard style automation, minimized daily task from 20 minutes into 3 minutes (1 click)
+
+JUN -	Automated draft-email with OneDrive(sync)-VBS(push)-VBS(draft email), Automated POApproval with WatchFolder using VBA(outlook)-BAT-VBS (from auto download into folder, auto process files, and auto draft email)
+
+
+Frequency of Version Release:
+JAN - 	07/01/2026 - YUMI v3.21 to v4.00, template's yearly update
+FEB to JUN - fully focused on Inventory Team 
+
+
+Frequency of meeting:  (Check Sent email, Outlook calender, Zoom, WA chat PAT, Slack Yumi, Timetracker)
+JAN - 	Tommy/HR - Handover meeting
+FEB to JUN - Biweekly meeting with Sub-ordinate - GINO
+
+
+Frequency of emailing sent (Outlook): 
+JAN - 	5 for INV Shirley
+JAN - 	23 for INV Routine
+JAN - 	17 for INV Tommy
+JAN - 	1 for INV Gino
+JAN - 	1 for INV Yee Teng
+FEB to JUN - all INV team routine tasks emails
+
+
+Hours spend on Work (VBA): (from monthly report)
+2026
+JAN - 117 hours / Total 141 hours = 83.0%
+
+
+Accumulated lines of code: (from MyDashboard)
+2026
+JAN 695,291 (727 templates), new/major 2,096
+
+
+VBA Knowledge:
+JAN-MAR:	
+	VBA-HTML reporting using Jules
+	JAN - TOMMY handover list, holiday replacement list
+	Task checklist using batch file
+	Task Monitoring using html-bat-ps1-csv
+	How to make dropdown menu better.xlsx - YUMI
+	Audit differences v1.00.xlsm
+	OutlookEmail_Details v1.00T.xlsm
+	File_Screening_Template_v2.10.xlsm
+	Unzipapp.exe (unzip password-protected files)
+
+APR-JUN:
+	Automation optimization for VBA macros
+	Using bat file to initiate / run all VBA macros
+	VBS-PS1-BAT-HTML JARVIS Dashboard
+	OutlookVBA-BAT-VBS automation
+
+
+2026 Weekly progress:
+W1	Dec29-Jan2
+Routine daily SIT, weekly SIT INV task, yearly SIT INV task
+Case Study INV task: Weekly Overstock JP report
+SIT for LL monthly reporting
+Report Audit by HR: compare SIT INV monthly task vs actual (OCT-NOV reportings)
+INV task study: Weekly update to Director
+
+W2	Jan5-9
+Routine daily SIT, weekly SIT INV task
+Case Study INV task: Weekly Overstock JP report
+Case Study LL daily task
+Add Project: Adhoc SOH analysis from Director DONE
+Update project: Improved Daily INV - Audit Differences between UAT and PROD file
+Tommy Handover's meeting
+Prepare handover item list / checklist, update SOPs according to Tommy's comment DONE
+Review GMP srr reporting Nov2025 
+Update project: GMP templates yearly update, new rows for 2026
+Tommy's handover: Weekly update to Director
+
+W3	Jan12-16
+Routine daily SIT, weekly INV task, monthly INV (2nd week)
+Request clarification from Tommy: Weekly INV Task, INV monthly task
+SIT for INV monthly & Quarterly reporting, reviewed by Tommy
+Yumi - Debug Shopee VN
+Discussion with HR for Holiday task arrangement - TW trip, CNY
+INV monthly routine - Transportation Fee Report DEC2025
+Tommy's handover: Weekly update to Director
+
+W4	Jan19-23 (TW)
+Routine daily SIT, weekly INV task
+Debug differences in Transportation Fee, updated Tommy
+SIT for LL monthly reporting
+Review GMP srr reporting Dec2025 IN PROGRESS
+Case Study: LL weekly and monthly tasks (newly introduced by Tommy)
+
+W5	Jan26-30
+Routine daily SIT, weekly INV task, send monthly Transportation Fee Report
+Tommy's handover: Weekly update to Director
+Meeting with Shipping team and Director for modify Transportation Fee
+Case Study: LL weekly and monthly tasks (newly introduced by Tommy)
+SIT for LL weekly & monthly reporting
+Add project: CDNWaiting list - build Unzip application for password locked zip-folder
+Intro Meeting with Gino: CNY holiday task arrangement
+Post meeting task: create folders in INV production to simulate UAT folders, duplicate vba templates (Jerr) DONE
+Review GMP srr reporting Dec2025 DONE
+
+W6	Feb2-6
+Routine daily SIT, weekly INV, monthly INV, weekly LL
+Debug Gino's Daily task: IMR data generation, some macro stopped and needs rerun (file corrupted)
+Continued project: Improve Transportation Fee reporting
+SIT for LL monthly reporting
+Weekly INV meeting #1 with Gino: daily task update, code update
+
+W7	Feb9-13
+Routine daily SIT, weekly INV, monthly INV, weekly LL, monthly LL task
+Yumi - Debug Shopee TH
+Gino - Issue with AverageCost weekly. Edited manually.
+Add project: New vba template for Weekly LL task
+Add project: New vba template for Weekly INV PO Summary
+Add project: Improved Daily INV - Data Tracebility protocol
+Gino's Project: VBA code clean up
+CANCELLED: Weekly INV meeting with Gino 
+
+W8	Feb16-20 (CNY)
+Routine weekly INV & weekly LL task
+Gino - Issue with MKTOverstock12MTH, rerun twice, variance = 0.
+
+W9	Feb23-27
+Routine daily SIT, weekly INV, monthly INV, weekly LL task
+Debug INV Daily: UAT Daily SOH raw data with (blanks) DONE
+Update project: Troubleshoot Weekly Overstock12MTH template, create rerun protocol
+Gino - Issue with ItemDetails rerun after INVMKTSales report. PO balance & INVMKTSales is not accurate.
+Update project: Send modified Transportation Report to YeeTeng
+INV team Shared folder maintenance: Archive Files DONE
+Update Project: Tools to support daily INV task, Audit reference file
+Gino's Project: VBA code clean up
+Weekly INV meeting #2 with Gino
+
+W10	Mar2-6		
+Routine daily SIT, weekly INV, monthly INV, weekly LL task
+Approve Gino's Feb attendance DONE
+Review GMP srr reporting Jan2026 DONE
+Review code update by Gino (Jerr), In progress
+Gino's Project: VBA code clean up
+Update project: Improved Daily INV - Item_Details (Gino), done debug
+Add project: Improve Daily INV - DailyInvRpt (Jerr), pending debug
+Update Project: Adhoc adding table to weekly PO Summary email, modified template.xlsx
+CANCELLED: Weekly INV meeting with Gino 
+
+
+[PART: text/plain]
+PLAIN: 2024 Work progress review:
+
+From TrackingTime APP:
+JAN - 2 major project from Finance (Chung)
+	Week 1-2 = Monthly templates
+	Week 3-4 = Yearly templates, optimizing monthly templates
+
+FEB - same 2 major project from Finance (Chung)
+	Week 1-2 = optimizing Monthly templates & Yearly templates
+	***Week 3-4 = build new VBA basic templates, explore React.js, Mysql, Tableau.
+
+MAR - 1 major project from Finance (Chung) and 1 major project from Purchasing (Pat)
+	Week 1 = optimizing Monthly templates (after Chung's reply)
+	Week 2-4 = Supplier Comparison Templates, draft & do initial testings, enable analysis for 100 suppliers. Difficulties faced: All supplier files are not standardized, big data for masterlist and certain suppliers, price & quotations change from time to time, Unable to use Mysql as user need to install, unable to use PowerQuery as the supplier files varies & analysis take long, unable to use all other Microsoft plug-in (access, power app) as we are not using Enterprise Microsoft, Power BI software not available. Only able to use basic Excel with VBA.
+	Template creation challenges: Supplier files not consistance with excel versions, column A for some supplier is empty, user is not proficient in using macro-enabled-excel, no existing manual SOP to be convert to VBA codes (all new actions need to be optimized)
+
+APR - 1 major project from Purchasing (Pat)
+	Week 1-2 = optimizing Supplier Comparison Templates. (10 days holiday trip)
+	***Week 3-4 = explore new VBA basics, review all new VBA codings
+	Check Qoo10 template again
+MAY - 1 new project from PAT - Supplier email handling & improve existing templates
+	Debug all known issue in Qoo10 template
+JUN - 2 changes requested from PAT - add column to template, add currency to analysis
+	Done SIT for Qoo10 templates
+	Transfer of project from Chung to Yumi
+JUL - Lazada, Shopee, Zalora template improvement (feedback from Yumi)
+	Done SIT for all new Lazada, Shopee, Zalora templates
+	Done Upgrade Qoo10 monthly template
+	Develop new eBay monthly template
+AUG - Lazada, Shopee, Zalora template improvement (feedback from Chung)
+	eBay template improvement (feedback from Chung)
+	Done SIT for all new Lazada, Shopee, Zalora, Qoo10, eBay templates
+	Provide DEMO to Yumi, 3 sessions
+SEP - ALL template improvement
+	Connected with Yumi for AUG reports using Slack
+	Optimize all codes (reduce lines of code, remove loops)
+	Define workflow and steps in macro
+	Delete unused rows and explicitly clean up variables
+OCT - Lazada, Shopee, Zalora, Qoo10 template improvement (feedback from Yumi)
+	Define all IF CONDITIONs in transform macro (PART1 vs PART2)
+	Setup File Backups, and backup routines
+	Update VBA Programming Guidelines
+	Setup File Retention Policy, clean up routines
+OCT - (3rd week onwards) support operation for Patricia	
+	JLP-Malaysia domain pricing
+	Website 3rd party payment gateway research
+	Website management (web admin) tasklist
+	Website disclaimer / policy, Website security research
+NOV - VBA projects maintenance
+	Submit daily reports, optimize reporting, send to self
+	Compliance to 21CFR policy,, create documentations
+	Access Permission, lock VBA projects
+	Review all VBA code with Chatgpt
+	Version control protocol, checklist
+	Training documentations
+DEC - VBA project SOPs, Version Release checklist (Quality)
+	Create registered / numbered Documents for Quality Improvement
+	Redo template as Beta or Production templates, created small template to push update
+	VBA template compatibility check
+	Make all generated report traceable from which template version
+	VBA use loop to make template dynamic (adjustable columns)
+	Automate task distribution in DailyReport
+
+	
+
+Frequency of Version Release:
+FEB - 	26/2/204 - Chung v1.31
+MAR - 	15/3/2024 - Chung v1.41
+	26/3/2024 - PAT v1.21
+APR -	2/4/2024 - PAT v3.00
+	4/4/2024 - PAT v3.11
+	17/4/2024 - PAT v3.20
+	30/4/2024 - Chung v1.11
+MAY -	30/5/2024 - PAT v2.22
+JUN -	6/62024 - PAT v5.01
+	21/6/2024 - Chung v1.44
+	24/6/2024 - PAT v5.02
+JUL - 	29/7/2024 - Yumi v2.00
+AUG - 	26/8/2024 - Yumi v2.31
+SEP -	N.A.
+OCT - 	16/10/2024 - Yumi v2.34
+NOV - 	N.A.
+DEC - 	24/12/2024 - Yumi v3.11
+	24/12/2024 - PAT v6.01
+
+
+
+Frequency of meeting:  (Check Sent email, Outlook calender, Zoom, WA chat PAT, Slack Yumi, Timetracker)
+JAN - 	3/1/2024 - Chung
+	5/1/2024 - Chung
+FEB - 	29/2/204 - Chung 
+MAR - 	5/3/2024 - Chung	DEMO
+	6/3/2024 - PAT
+	8/3/2024 - Chung
+	13/3/2024 - Chung
+	20/3/2024 - PAT
+APR -	2/4/2024 - PAT		DEMO
+JUN -	28/6/2024 - Yumi	DEMO
+JUL - 	16/7/2024 - Yumi
+	30/7/2024 - Yumi	DEMO
+AUG -	7/8/2024 - Yumi
+	12/8/2024 - Yumi
+	30/8/2024 - Yumi	DEMO
+SEP -	(Slack)
+OCT -	10/10/2024 - Yumi
+	18/10/2024 - Yumi
+    	21/10/2024 - PAT (Operation matters)
+NOV - 	(Slack)
+DEC -	30/12/2024 - Yumi 	DEMO
+
+
+
+Frequency of emailing sent (Outlook): 
+JAN - 	8 for Chung
+FEB - 	5 for Chung
+MAR - 	9 for Chung (stopped since 15/3/2024)
+	12 for Patricia (mostly communicate in Whatsapp)
+APR - 	13 for Patricia (as of 17/4/2024)
+	1 for Chung
+MAY - 	10 for Patricia (mostly communicate in Whatsapp)
+JUN - 	7 for Patricia
+	2 for Chung
+	2 for Yumi
+JUL -	3 for Chung
+	1 for Yumi (mostly communicate in Slack)
+	2 for Patricia
+AUG - 	6 for Chung
+	2 for Yumi (mostly communicate in Slack)
+SEP -	2 for Chung (Mcube login)
+	Yumi (using Slack)
+OCT - 	1 for Yumi (version release)
+	2 for Chung (eBay template)
+	1 for PAT (payment-gateway for website)
+NOV - 	N.A.
+DEC - 	2 for PAT (website logo, Version Release)
+	1 for Chung (TH Shopee reporting)
+	2 for Yumu (Version Release, DEMO)
+
+
+Hours spend on Work (VBA): (from monthly report)
+2024
+JAN - 138 hours / Total 172 hours = 80.2%
+FEB - 106 hours / Total 134 hours = 79.1%
+MAR - 146 hours / Total 159 hours = 91.8%
+APR - 113 hours / Total 142 hours = 79.6%
+MAY - 156 hours / Total 188 hours = 83.0%
+JUN - 126 hours / Total 159 hours = 79.2%
+JUL - 153 hours / Total 190 hours = 80.5%
+AUG - 159 hours / Total 196 hours = 81.1%
+SEP - 117 hours / Total 162 hours = 72.2%
+OCT - 134 hours / Total 172 hours = 77.9%
+NOV - 82 hours / Total 103 hours = 79.6%
+DEC - 128 hours / Total 163 hours = 78.5%
+(Target to hit 1000 hours on end-Aug, actual: 938 hrs)
+
+
+
+Accumulated lines of code: (from MyDashboard)
+2024
+JAN 137,350 (150 templates), new/major 137,350
+FEB 228,980 (242 templates), new/major 40,323
+MAR 264,427 (280 templates), new/major 2,715
+APR 282,757 (320 templates), new/major 6,818
+MAY 307,671 (354 templates), new/major 7,272
+JUN 340,039 (379 templates), new/major 11,432
+JUL 404,153 (423 templates), new/major 29,846
+AUG 497,148 (483 templates), new/major 24,761
+SEP 520,051 (511 templates), new/major 18,255
+OCT 549,233 (539 templates), new/major 18,574
+NOV 578,429 (563 templates), new/major 30,089
+DEC 669,999 (686 templates), new/major 51,032
+
+
+
+VBA Knowledge:
+JAN-MAR: 	Explore template standard format, 
+		mini templates, 
+		data segregations, 
+		code counters, 
+		monthly report template, 
+		attendance report templates...
+Extra: MySQL, Tableau, Dynamic Webpage
+
+APR-JUN: 	Explore MrExcel, 
+		Userform & its applications
+		Progress bar, 
+		Variations of Loops, 
+		excel table, pivot table & sales dashboard, 
+		VBA get email details, 
+		MyDailyDashboard
+Extra: PowerBi, Aesthetic Excel pages...
+
+JUL-SEP:	Export excel as new workbook and remain all formulas,
+		VBA to rearrange sheets, update source links, update pivot source data...
+		Pivot table using VBA,
+		Stop calculation using VBA
+		Optimized Export template as new excel
+		Turn calculation auto / manual
+		Template to skip top rows, match columns and compile similar data
+		Explicitly clean up variables
+		Delete unused rows on code, combine rows of declare into 1 row
+		Documentation on all macro: Workflow module with steps, define macro steps
+
+OCT-DEC:	Setup / doublecheck my documents for online-backups and routine backups
+		Update VBA Programming Guideline SOP
+		Setup File retention Policy, clean up routines
+		Explore Web admin vs Web manager task
+		Learn on Website domain pricing, 3rd party gateway, disclaimer, policy, website security
+		Compliance to 21CFR, create documentations
+		Login to templates, access permissions, lock VBA
+		Version control records, training records
+		Delete: use variable "Usedrow" instead of deleting 999999 rows
+		Track changes in cells into LOG (changed from __ to __ )
+		
+
+
+
+
+
+[PART: text/plain]
+PLAIN: 2025 Work progress review:
+
+From TrackingTime APP:
+JAN - 	Simulate Pricing Margin templates
+	Explore Google App Script
+	Explore PowerBI for SAP analysis
+	Webscrapping for Social Media Follower
+	Shopify website - adding Rating feature to all Product
+FEB - 	Price Comparison - using Loop-Search-Matching in VBA, Need Improvements
+	Instant Data Scrapper in GoogleChrome - to grab list of data on webpages
+	Used ChatGPT, Grok3, DeepSeek, Gemini to split Product names
+MAR - 	P&L orders summary reports - open and extract specific columns in monthly reports, sumifs to get full table
+	Search engine using matching in VBA macro
+
+APR - 	Search engine using split-matching in VBA macro
+	VBA routine maintenance works
+
+MAY -	13-16th May - Purchasing Associate task Review
+	Use BAT file and VBS file to improve automations
+	Use signal (txt file) to proceed next step in BAT file
+	Create DEMO environment for testing
+	23-30th May - Inventory Team task Review
+	Suggest scheduled NAV reporting and use BAT file to automate file relocations
+
+JUN -	New way of doing loop / if else condition to add formulas (drag-down) dynamically, from Inventory files
+	VBA Array function to vlookup data
+
+JUL - 	Webscrapping thru multiple method: Colab, jsScrapper, puppeteer, Appscript, Playwright, aiolimiter py
+ 
+AUG -	Explore POS system using Appscript
+	Create repositories for VBA documentations in GitHub
+	Put signature on each created VBA templates - BulkSignatures
+	General task checklist using Batch Files
+
+SEP -	Explore INV Team shared environment, routine tasks
+	Dissect INV daily VBA operations
+	Study INV weekly & monthly reporting
+	Implement VBA standard in INV team VBA templates
+
+OCT -	Run INV routine in UAT environment
+	Midvalley BEAUTY EXPO
+	
+NOV -	Build checking system, task monitoring system for INV routine
+	New VBA templates for INV monthly reporting
+	Build new html reporting for INV SOH Weekly Friday report
+
+DEC - 	Simulate INV weekly and monthly reporting in UAT	
+	Review simulations of OCT-NOV reporting with HR
+	Study LL Monthly reporting
+	SIT on Yearly Stock Take
+	
+Frequency of Version Release:
+JAN - 	07/01/2025 - YUMI v3.21
+FEB -	13/02/2025 - SHIRLEY v1.00
+FEB -	21/02/2025 - SHIRLEY v1.10
+FEB -	21/02/2025 - SHIRLEY v2.20 (ON HOLD)
+MAR -	07/03/2025 - CHUNG v1.00
+MAR -	11/03/2025 - CHUNG v1.10
+MAR -	19/03/2025 - CHUNG v1.20
+MAR - 	21/03/2025 - YUMI v3.30 MY Shopee
+MAR -	25/03/2025 - CHUNG v1.30
+APR - 	03/04/2025 - YUMI v3.22 eBay
+APR - 	03/04/2025 - YUMI v3.31 MY Shopee
+JUN -	16/06/2025 - YUMI v3.30 Lazada - TH, MY, PH, SG 
+JUL -	N/A
+AUG - 	N/A
+SEP - 	INV TEAM v4.10 (INV task review)
+OCT -	INV TEAM v2.10 (Weekly 12MTH)
+NOV -	INV TEAM v2.00 (Monthly Expiry)
+DEC - 
+
+Frequency of meeting:  (Check Sent email, Outlook calender, Zoom, WA chat PAT, Slack Yumi, Timetracker)
+JAN - 	(Slack) - Yumi
+FEB - 	SHIRLEY - price comparison
+FEB - 	CHUNG - P&L summary reports
+MAR -	Yumi - Shopee MY JAN2025 "subsidy" issue
+MAR -	Yumi - Shopee MY JAN2025 add Order Level issue
+MAR -	PAT - SEO review meeting
+APR -	Peter - Google partnership for Kalista Beauty
+MAY -	HR - purchasing associates task review
+MAY - 	HR - Inventory team task review
+JUN -	Yumi - Tutorial for adding column in Shopee templates (Reference sheet)
+AUG -	Tommy/Gino - INV reporting walkthrough
+SEP -	Tommy/Gino - INV reporting walkthrough (follow-up meeting)
+SEP - 	Yumi - Lazada MY issue, add column
+OCT - 	Tommy/Director - Follow up missing reporting
+OCT - 	PAT - BEAUTY EXPO preparations
+DEC -	HR - confirm simulations of INV reporting OCT-NOV
+
+Frequency of emailing sent (Outlook): 
+JAN -	1 for Yumi (Reply to Received reports)
+FEB -	3 for PAT (Trustpilot and weekly report)
+FEB -	4 for Shirley (Price Comparison)
+FEB -	2 for Chung (P&L orders summary)
+FEB -	2 for Yumi (Reply to Received reports)
+MAR -	15 for Chung (P&L orders summary)
+MAR -	4 for Yumi (Reply to Received reports)
+APR -	1 for Shirley (Kalista Beauty)
+APR -	2 for PAT (SEO improvement)
+APR -	3 for Shirly (GA4 logins)
+MAY -	2 for Shirly (Review Hong's task & Inventory Control)
+JUN -	1 for Shirly (Getting update for task review)
+JUL - 	N/A
+AUG - 	N/A
+SEP - 	4 for INV Shirley
+SEP - 	7 for INV Tommy
+OCT - 	3 for INV Shirley
+OCT - 	2 for INV Tommy
+NOV - 	3 for INV Shirley
+DEC - 	5 for INV Shirley
+
+
+Hours spend on Work (VBA): (from monthly report)
+2025
+JAN - 117 hours / Total 141 hours = 83.0%
+FEB - 141 hours / Total 169 hours = 83.4%
+MAR - 138 hours / Total 173 hours = 79.8%
+APR - 153 hours / Total 188 hours = 81.3%
+MAY - 138 hours / Total 173 hours = 79.8%
+JUN - 139 hours / Total 172 hours = 80.8%
+JUL - 160 hours / Total 194 hours = 82.5%
+AUG - 145 hours / Total 178 hours = 81.5%
+SEP - 136 hours / Total 164 hours = 82.9%
+OCT - 187 hours / Total 217 hours = 86.2%
+NOV - 155 hours / Total 187 hours = 82.9%
+DEC - 139 hours / Total 172 hours = 80.8%
+
+Accumulated lines of code: (from MyDashboard)
+2025
+JAN 695,291 (727 templates), new/major 2,096
+FEB 709,495 (746 templates), new/major 6,172
+RESET raw data (deleted archived)
+MAR 245,495 (332 templates), new/major 44,169
+APR 299,860 (372 templates), new/major 19,720
+MAY 299,889 (373 templates), new/major 1,400
+JUN 311,515 (402 templates), new/major 2,242
+JUL 309,935 (402 templates), new/major 379
+AUG 309,935 (402 templates), new/major 380
+SEP 309,935 (402 templates), new/major 887
+OCT 309,935 (402 templates), new/major 1,863
+NOV 335,417 (466 templates), new/major 3,544
+DEC 311,515 (402 templates), new/major 2,242
+
+VBA Knowledge:
+JAN-MAR:	Google App Script, intro
+		Webscrapping - Instant data scrapper
+		VBA search engine - Need improve
+		VBA data extract from multiple files, specific columns
+		Explored Chatgpt, Grok3, Gemini, DeepSeek for Product name splits, Price Comparisons
+		VBA search engine using Split sheet
+		Explore SEO improvement for COSME-DE.COM
+
+APR-JUN:	BAT file + VBS file for automations
+		Signalling BAT file to proceed next step (loop to check .txt file)
+		Reviewing Existing Task - new workflow
+		Create DEMO environment for existing macro testing
+		Loop using function, and IF ELSE condition to add formulas
+
+JUL-SEP:	BAT file for task checklist
+		Webscrapping
+		POS system using Appscript
+		VBA-javascript: scan-outliers
+		Use BAT file to compile large dataset (Discon list)
+		
+OCT-DEC:	use VBA-HTML method to visualize data analysis
+		Explored Gemini and AI-Agent Jules
+
+		
+
+
