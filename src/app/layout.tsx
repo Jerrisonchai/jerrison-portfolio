@@ -44,7 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
       </head>
-      <body className="bg-[#0A0A0A] text-[#F5F5F5] antialiased font-sans">{children}</body>
+      <body className="bg-[#0A0A0A] text-[#F5F5F5] antialiased font-sans pb-20 md:pb-0">{children}</body>
     </html>
   );
 }

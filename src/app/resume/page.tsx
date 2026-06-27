@@ -239,10 +239,10 @@ function ResumeSection({ title, icon, children }: { title: string; icon: string;
 
 const summary = (
   <p className="text-zinc-400 text-xs leading-relaxed">
-    VBA Automation Architect with 12 years evolving from lab technician to multi-department automation lead at DNA Labs.
+    VBA Automation Architect with 12 years evolving from lab technician to multi-department automation lead.
     Built 700+ VBA templates across 6 departments, developed the JARVIS Dashboard reducing daily operations from 20
     minutes to 3, and accumulated 695K lines of production code. 48 formal version releases with full SOP documentation.
-    Currently leading a 2-person INV team while simultaneously building AI-powered trading systems and web applications.
+    Currently a VBA Business Analyst at Shuei Trading, simultaneously building AI-powered side projects with OpenClaw.
   </p>
 );
 
@@ -257,19 +257,19 @@ const skillGroups = [
 const experience = [
   {
     role: 'Software Lead & VBA Automation Architect',
-    period: '2023 – Present',
+    period: '2023',
     company: 'DNA LABS SDN BHD — INV Team',
     bullets: [
       'Built JARVIS Dashboard (VBS-PS1-BAT-HTML) — one-click automation reducing daily operations from 20 minutes to 3.',
       'Automated email drafting pipeline: OneDrive → VBS → Outlook. Implemented PO Approval WatchFolder.',
-      'Manage 1 subordinate (Gino). Lead INV team with 727+ active templates, 695K lines of code.',
+      'Managed 1 subordinate (Gino). Led INV team with 727+ active templates, 695K lines of code.',
       'Cross-department service: INV, LL, COSME-DE, Yumi, GMP.',
     ],
   },
   {
-    role: 'VBA Developer — Finance, Purchasing, E-commerce',
-    period: '2024 – 2025',
-    company: 'DNA LABS SDN BHD',
+    role: 'VBA Business Analyst',
+    period: '2024 – Present',
+    company: 'Shuei Trading Sdn Bhd',
     bullets: [
       'Served 3 departments simultaneously. 3,348 VBA hours across 2 years (80%+ time allocation).',
       'Built Supplier Comparison System processing 100+ non-standardized supplier Excel files.',
@@ -291,7 +291,7 @@ const experience = [
 ];
 
 const achievements = [
-  { metric: '12 yrs / 1 co', title: 'Deep Organizational Impact', desc: 'Evolved through 8 roles at a single company — deep institutional knowledge.' },
+  { metric: '12 yrs / 2 co', title: 'Deep Organizational Impact', desc: 'Evolved through 8 roles across 2 companies — deep institutional knowledge of lab + trading operations.' },
   { metric: '20min → 3min', title: 'JARVIS Dashboard', desc: 'Multi-technology automation system. One-click daily operations for entire INV team.' },
   { metric: '695K', title: 'Lines of Production Code', desc: 'Accumulated in active VBA templates. All version-controlled with release protocol.' },
   { metric: '1,879', title: 'Templates Created', desc: '727 active. Served 6 departments. Standardized with SOPs and training documentation.' },
@@ -314,9 +314,10 @@ Kuala Lumpur, Malaysia | jerrisonchai@gmail.com | github.com/Jerrisonchai
 
 PROFESSIONAL SUMMARY
 VBA Automation Architect with 12 years evolving from lab technician to multi-department
-automation lead at DNA Labs. Built 700+ VBA templates across 6 departments, developed the
+automation lead. Built 700+ VBA templates across 6 departments, developed the
 JARVIS Dashboard reducing daily operations from 20 minutes to 3, and accumulated 695K lines
 of production code. 48 formal version releases with full SOP documentation.
+Currently VBA Business Analyst at Shuei Trading, building AI side projects with OpenClaw.
 
 TECHNICAL SKILLS
 Automation: VBA (12 yrs), VBS, BAT, PowerShell, Power Query, Task Scheduler, Outlook
@@ -327,13 +328,13 @@ Business: SOPs, 21CFR compliance, requirements gathering, cross-department colla
 
 PROFESSIONAL EXPERIENCE
 
-Software Lead & VBA Automation Architect | DNA Labs — INV Team | 2023–Present
+Software Lead & VBA Automation Architect | DNA Labs — INV Team | 2023
 • Built JARVIS Dashboard (VBS-PS1-BAT-HTML): one-click automation, 20min→3min daily ops
 • Automated email drafting pipeline: OneDrive → VBS → Outlook. PO Approval WatchFolder
-• Manage 1 subordinate (Gino). 727+ active templates, 695K lines of production code
+• Managed 1 subordinate (Gino). 727+ active templates, 695K lines of production code
 • Cross-department service: INV, LL, COSME-DE, Yumi, GMP
 
-VBA Developer — Finance, Purchasing, E-commerce | DNA Labs | 2024–2025
+VBA Business Analyst | Shuei Trading | 2024–Present
 • Served 3 departments simultaneously. 3,348 VBA hours (80%+ time allocation)
 • Built Supplier Comparison System processing 100+ non-standardized supplier files
 • E-commerce monthly reports: Lazada, Shopee, Zalora, Qoo10, eBay. 48 version releases
@@ -347,7 +348,7 @@ LIS Project Manager & Lab Assistant Manager | DNA Labs | 2016–2023
 • Platform migration (NIPT), ISO documentation, staff training
 
 KEY ACHIEVEMENTS
-12 yrs / 1 co  — Deep Organizational Impact: 8 roles at single company
+12 yrs / 2 co  — Deep Organizational Impact: 8 roles across 2 companies
 20min → 3min   — JARVIS Dashboard: Multi-technology automation system
 695K           — Lines of Production Code: Version-controlled with release protocol
 1,879 templates — 727 active, 6 departments, standardized with SOPs

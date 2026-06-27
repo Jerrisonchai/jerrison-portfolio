@@ -33,10 +33,10 @@ export default function ProjectsPage() {
       <Nav />
       <main className="pt-24 pb-20 px-6 max-w-5xl mx-auto">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
-          <p className="section-label mb-2">Built With AI</p>
+          <p className="section-label mb-2">Side Hustles · Built With OpenClaw AI</p>
           <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-2 tracking-tight">Projects</h1>
           <p className="text-zinc-500 text-sm mb-10">
-            12 projects — designed, architected, and deployed with AI collaboration via OpenClaw.
+            12 side projects built outside work hours — an AI-assisted deep dive into automation, web development, and trading systems. Every project designed, architected, and deployed with OpenClaw as the AI co-pilot.
           </p>
         </motion.div>
 
