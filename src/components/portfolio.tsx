@@ -37,7 +37,7 @@ export function Portfolio() {
               <span className="text-white font-medium">JARVIS Dashboard</span> that reduced daily operations from 20 minutes to 3.
             </p>
             <div className="flex justify-center gap-4 flex-wrap">
-              <a href="#experience" className="btn-primary">View Experience</a>
+              <a href="/experience" className="btn-primary">View Experience</a>
               <a href="/jerrison-resume.pdf" className="btn-secondary">Download Resume ↓</a>
             </div>
           </motion.div>
