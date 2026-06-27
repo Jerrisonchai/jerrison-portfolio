@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0A0A"/>
+      <stop offset="50%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#0A0A0A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Subtle grid -->
+  <g stroke="#1A1A1A" stroke-width="1" opacity="0.5">
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+  </g>
+
+  <!-- Accent bar -->
+  <rect x="80" y="80" width="4" height="470" rx="2" fill="url(#accent)"/>
+
+  <!-- Name -->
+  <text x="120" y="220" font-family="Inter, system-ui, sans-serif" font-size="72" font-weight="800" fill="#FFFFFF" letter-spacing="-2">Jerrison Chai</text>
+
+  <!-- Role -->
+  <text x="120" y="290" font-family="Inter, system-ui, sans-serif" font-size="32" font-weight="500" fill="#3B82F6" letter-spacing="0">VBA Automation Architect &amp; Full-Stack Developer</text>
+
+  <!-- Tagline -->
+  <text x="120" y="350" font-family="Inter, system-ui, sans-serif" font-size="20" fill="#A1A1AA" letter-spacing="0">12 years · 727+ templates · 695K LoC · JARVIS Dashboard</text>
+
+  <!-- Metrics -->
+  <g transform="translate(120, 420)">
+    <g transform="translate(0, 0)">
+      <text x="0" y="0" font-family="JetBrains Mono, monospace" font-size="42" font-weight="700" fill="#FFFFFF">3,348</text>
+      <text x="0" y="24" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#71717A">VBA Hours</text>
+    </g>
+    <g transform="translate(180, 0)">
+      <text x="0" y="0" font-family="JetBrains Mono, monospace" font-size="42" font-weight="700" fill="#FFFFFF">48<text font-size="20" fill="#3B82F6">+</text></text>
+      <text x="0" y="24" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#71717A">Releases</text>
+    </g>
+    <g transform="translate(340, 0)">
+      <text x="0" y="0" font-family="JetBrains Mono, monospace" font-size="42" font-weight="700" fill="#FFFFFF">12</text>
+      <text x="0" y="24" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#71717A">AI Projects</text>
+    </g>
+    <g transform="translate(500, 0)">
+      <text x="0" y="0" font-family="JetBrains Mono, monospace" font-size="42" font-weight="700" fill="#FFFFFF">20m→3m</text>
+      <text x="0" y="24" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#71717A">Daily Ops Saved</text>
+    </g>
+  </g>
+
+  <!-- URL -->
+  <text x="120" y="540" font-family="JetBrains Mono, monospace" font-size="18" fill="#52525B">jerrison-portfolio.vercel.app</text>
+
+  <!-- Bottom accent line -->
+  <rect x="80" y="610" width="1040" height="2" rx="1" fill="#1A1A1A"/>
+</svg>
